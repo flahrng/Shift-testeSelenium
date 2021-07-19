@@ -1,0 +1,23 @@
+{
+    "name": "desafio-selenium-webdriver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "codeceptjs run --steps",
+        "test:headless": "set HEADLESS=true && codeceptjs run --steps"
+    },
+    "author": "Flávia Hering",
+    "license": "ISC",
+    "dependencies": {
+        "@codeceptjs/configure": "^0.6.2",
+        "codeceptjs-cmdhelper": "^2.2.3"
+    },
+    "devDependencies": {
+        "@wdio/cli": "^6.3.6",
+        "@wdio/selenium-standalone-service": "^6.12.1",
+        "codeceptjs": "^3.0.4",
+        "playwright": "^1.8.0",
+        "webdriverio": "^6.12.1"
+    }
+}
